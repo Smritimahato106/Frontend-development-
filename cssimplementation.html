@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smriti</title>
+    <style>
+        table,th,td {
+            border :1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        #ip{
+            color: blue;
+           
+        }
+        .abc{
+            color:blueviolet
+        }
+        #xyz{
+            color:chocolate;
+        }
+        #dep{
+            color:brown;
+        }
+    
+    </style>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+     <table style ="border: 1px solid black;
+             border-collapse : collapse;
+             padding: 10px;
+             text-align: centre;
+             background-color: plum;
+             width:300; ">
+       <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Roll No</th>
+        </tr>
+        <tr>
+            <td>Smriti</td>
+            <td>2nd year</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Sneha</td>
+            <td>2nd year</td>
+            <td>13</td>
+        </tr>
+    </table><br>
+    <form style = "border : 1px solid black;
+            width: max-content;
+            padding: 15px;
+            text-align: center;
+            background-color: darkseagreen;">
+            
+        <label id="ip" for="name" >name</label>
+        <input type="text" id="name" Name="name">
+        <label for="class" class="abc">class</label>
+        <input type="text" id="class" class="class">
+        <label for="roll no" class="abc">roll no</label>
+        <input type="text" id="roll no" roll no="roll no">
+       
+
+       <label for="cse" dep="department">cse</label>
+       <input type="radio" id="cse" cse="cse"></input>
+       <label for="it" dep="department">it</label>
+       <input type="radio" id="it" cse="it"></input>
+       <label for="ece" dep="department">ece</label>
+       <input type="radio" id="ece" ece="ece"></input>
+        <input id="xyz" type="submit" value="submit">
+     </form>
+</body>
+</html>
